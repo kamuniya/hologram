@@ -6,5 +6,5 @@
 
 很多客户端工具默认集成了PostgreSQL数据库的驱动，直接使用工具自带的驱动即可。如果未集成，可从[JDBC官网](https://jdbc.postgresql.org/?spm=a2c4g.11186623.2.7.3eaf12a8I631Qr)下载。以SQL Workbench/J客户端为例，创建连接时可选择PostgreSQL官方驱动。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1332511/156716890755608_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1332511/156716938155608_zh-CN.png)
 
