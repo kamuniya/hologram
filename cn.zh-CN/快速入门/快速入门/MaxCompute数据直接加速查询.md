@@ -8,7 +8,7 @@
 
     示例直接选用MaxCompute已有表，其DDL如下。
 
-    ``` {#codeblock_6dp_m4h_8k6}
+    ``` {#codeblock_806_ioc_887 .lanuage-sql}
     CREATE TABLE `lightning_cat_industry` (
       `ind_type` STRING,
       `type_id` BIGINT ,
@@ -33,7 +33,7 @@
 
     这一步是建立映射表，用于交互式分析（Interactive Analytics）读取MaxCompute源头表数据。外部表语义和参数完全兼容标准PostgresSQL，详情参见[外部表](../../../../cn.zh-CN/用户指南/SQL参考/DDL/外部表.md#)。示例SQL命令语句如下。
 
-    ``` {#codeblock_zg6_tes_sky}
+    ``` {#codeblock_0im_xi6_747 .lanuage-sql}
     create foreign table
      lightning_cat_industry_sc(
       ind_type text ,
@@ -61,9 +61,9 @@
     -   不支持import foreign schema。
 3.  **查询外部表** 
 
-    外部表创建成功后，输入一下SQL命令语句即可查询MaxCompute的表数据。
+    外部表创建成功后，输入以下SQL命令语句即可查询MaxCompute的表数据。
 
-    ``` {#codeblock_mkj_xgz_p1d}
+    ``` {#codeblock_5j2_u63_flz .lanuage-sql}
     select count(*) from lightning_cat_industry_demo2 where ds='20190720';
     select * from lightning_cat_industry_demo2 limit 10;
     ```
