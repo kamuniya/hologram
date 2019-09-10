@@ -11,7 +11,7 @@ DataWorks数据服务旨在为企业搭建统一的数据服务总线，帮助�
 1.  登录**DataWorks** \> **数据集成** \> **数据源**。
 2.  单击数据源页面右上角的**新增数据源** \> **Lightning**数据源或者**PostgreSQL**数据源。
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955950_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129755950_zh-CN.png)
 
 
 **说明：** ：
@@ -31,25 +31,25 @@ SQL Workbench/J是一款流行的免费、跨平台SQL查询分析工具，使�
 
 选择PostgreSQL驱动，连接交互式分析（Interactive Analytics）项目所对应的Interactive Analytics URL地址，同时输入访问用户的用户名和密码，即Access ID和Access Key。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955521_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129755521_zh-CN.png)
 
 也可通过扩展属性（Extended Properities）设置ssl取值为true。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955522_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129755522_zh-CN.png)
 
 连接后，在Workbench工作区查看交互式分析（Interactive Analytics）项目的表数据、查询分析。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955523_zh-CN.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129755523_zh-CN.png)
 
 ## Tableau Desktop {#section_d6z_37p_gvm .section}
 
 使用BI工具，选择PostgreSQL数据源，配置连接。配置连接时，需勾选需要SSL。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955652_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129855652_zh-CN.jpg)
 
 登录后，通过Tableau创建工作表进行可视化分析。
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156716895955666_zh-CN.jpg)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/1345947/156810129855666_zh-CN.jpg)
 
 为了获得更好的性能和体验，建议您使用Tableau支持的TDC文件方式，对Interactive Analytics数据源进行连接定制优化。具体操作如下。
 
