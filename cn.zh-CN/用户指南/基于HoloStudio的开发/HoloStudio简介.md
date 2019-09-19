@@ -4,20 +4,24 @@ HoloStudio是DataWorks旗下的一站式OLAP开发平台。HoloStudio基于交�
 
 ## HoloStudio核心功能 {#section_gn3_7gb_79w .section}
 
--   **Hologres管理** 
+-   **外部表管理** 
 
-    提供可视化和SQL两种PostgreSQL建表模式进行PG管理，满足不同层次用户需求；具备一键创建MaxCompute外部表的功能。
+    支持一键shcema同步创建MaxCompute外部表，亚秒级MaxCompute数据预览和分析。
+
+-   **表管理** 
+
+    提供可视化和SQL两种PostgreSQL建表模式，满足不同层次需求。
+
+-   **Hologres开发** 
+
+    基于DataWorks调度框架实现MaxCompute离线数据到交互式分析（Interactive Analytics）索引数据的周期构建。
 
 -   **SQLConsole** 
 
-    基于SQL编辑器为Hologres用户提供秒级交互式查询体验。
+    基于SQL编辑器为交互式分析（Interactive Analytics）用户提供秒级交互式查询体验。
 
 -   **WebConsole** 
 
-    Web端psql服务，满足终端习惯客户需求。
-
--   **数据开发** 
-
-    基于DataWorks的底层能力，为用户提供一站式稳定高效的ETL服务。
+    提供给Web端psql服务，满足终端习惯的需求。
 
 
