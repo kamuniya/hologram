@@ -26,7 +26,7 @@ You can also get started with Hologres in a visualized manner by using HoloStudi
 
         You can also click **Manage** in the **Actions** column of the target instance to go to the instance details page.
 
-3.  Connect to the Hologres instance from the PostgreSQL client. For more information, see [t1345907.md\#](/intl.en-US/Quick Start/Connect to Hologres from the PostgreSQL client.md).
+3.  Connect to the Hologres instance from the PostgreSQL client. For more information, see [Connect to a Hologres instance from the PostgreSQL client](/intl.en-US/Quick Start/Connect to a Hologres instance from the PostgreSQL client.md).
 
 4.  Create a database for your business purposes.
 
@@ -39,7 +39,7 @@ You can also get started with Hologres in a visualized manner by using HoloStudi
     CREATE Database test; // Create a database named test.
     ```
 
-    You can also create a database in the Hologres console. For more information, see [Create a database](/intl.en-US/Quick Start/Create a database.md).
+    You can also create a database in the Hologres console. For more information, see [t1878089.md\#](/intl.en-US/Quick Start/Create a database.md).
 
 5.  Authorize a RAM user.
 
