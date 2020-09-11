@@ -47,6 +47,8 @@ This topic describes how to connect to a Hologres instance and use the standard 
         Password of the <AccessKey ID> user: <AccessKey Secret>
         ```
 
+        ![tu](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/1379189951/p165824.png)
+
     |Parameter|Description|
     |---------|-----------|
     |AccessKey ID|The AccessKey ID of your Alibaba Cloud account.You can obtain the AccessKey ID in the [User Management](https://usercenter.console.aliyun.com/?spm=5176.2020520153.nav-right.dak.3bcf415dCWGUBj#/manage/ak) console. |
@@ -55,7 +57,7 @@ This topic describes how to connect to a Hologres instance and use the standard 
     |Endpoint|The public endpoint of the Hologres instance.Example: `xxx-cn-hangzhou.hologres.aliyuncs.com`. |
     |Database|The name of the database that you want to access from the PostgreSQL client.After you purchase a Hologres instance, a database named **postgres** is created by default.
 
-You can connect to the **postgres** database, but limited resources are allocated to this database. We recommend that you go to the Hologres console and create a database for business purposes. For more information, see [Create a database](/intl.en-US/Quick Start/Create a database.md).
+You can connect to the **postgres** database, but limited resources are allocated to this database. We recommend that you go to the Hologres console and create a database for business purposes. For more information, see [t1878089.md\#](/intl.en-US/Quick Start/Create a database.md).
 
 Example: `mydb`. |
 
