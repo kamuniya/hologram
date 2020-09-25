@@ -54,7 +54,7 @@ HoloWeb用于处理交互式分析Hologres数据。使用HoloWeb时，您需要�
 
     **说明：**
 
-    -   进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**实例配置**获取主机和端口，从**DB配置**获取初始化数据库。
+    -   进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**实例配置**获取主机和端口，从**DB管理**获取初始化数据库。
     -   单击[AccessKey 管理](https://usercenter.console.aliyun.com/?spm=5176.2020520153.nav-right.dak.3bcf415dCWGUBj#/manage/ak)，获取用户名和密码。
 
 ## 使用HoloWeb新建数据库
