@@ -26,7 +26,7 @@ Tableau是安全并且灵活的端到端数据分析平台，提供从连接到�
         |--|--|
         |服务器|Hologres实例的公共网络地址。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**实例配置**获取公共网络地址。 |
         |端口|Hologres的实例端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**实例配置**获取端口。 |
-        |数据库|Hologres创建的数据库名称。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**DB配置**获取数据库名称。 |
+        |数据库|Hologres创建的数据库名称。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**DB管理**获取数据库名称。 |
         |身份验证|选择**用户名和密码**。|
         |用户名|当前阿里云账号的AccessKey ID。您可以单击[AccessKey 管理](https://usercenter.console.aliyun.com/?spm=5176.2020520153.nav-right.dak.3bcf415dCWGUBj#/manage/ak)，获取AccessKey ID。 |
         |密码|当前阿里云账号的AccessKey Secret。您可以单击[AccessKey 管理](https://usercenter.console.aliyun.com/?spm=5176.2020520153.nav-right.dak.3bcf415dCWGUBj#/manage/ak)，获取AccessKey Secret。 |
