@@ -8,7 +8,7 @@ keyword: [数据集成, Hologres, RDS MySQL]
 
 -   开通DataWorks，详情请参见[入门概述]()。
 -   开通Hologres实例，并绑定至DataWorks工作空间，详情请参见[HoloStudio快速入门](/cn.zh-CN/基于HoloStudio的开发/HoloStudio快速入门.md)。
--   开通云数据库RDS MySQL，详情请参见[云数据库 RDS 快速入门](/cn.zh-CN/.md)。
+-   开通云数据库RDS MySQL，详情请参见[快速入门](/cn.zh-CN/云数据库 RDS 快速入门/快速入门.md)。
 
 **说明：** 跨地域是否可以同步数据，详情请参见[数据源测试连通性]()。
 
