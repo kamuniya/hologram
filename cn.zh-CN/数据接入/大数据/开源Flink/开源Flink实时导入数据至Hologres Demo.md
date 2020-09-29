@@ -6,7 +6,7 @@ keyword: [开源Flink, 实时导入数据]
 
 本文以一个示例为您演示开源Flink如何实时写入数据至Hologres。
 
--   开通Hologres实例，并连接开发工具。本次示例使用psql客户端连接Hologres，详情请参见[通过psql客户端使用Hologres](/cn.zh-CN/快速入门/通过psql客户端使用Hologres.md)。
+-   开通Hologres实例，并连接开发工具。本次示例使用psql客户端连接Hologres，详情请参见[psql客户端快速入门](/cn.zh-CN/快速入门/psql客户端快速入门.md)。
 -   创建Flink集群。您可以进入Flink官网下载二进制文件，启动一个Standalone集群，详细操作步骤请参见[集群搭建](https://ci.apache.org/projects/flink/flink-docs-release-1.11/try-flink/local_installation.html)。本次示例使用Flink1.10集群。
 
 ## 操作步骤
@@ -27,7 +27,7 @@ keyword: [开源Flink, 实时导入数据]
     1.  下载并安装Hologres Connctor依赖的JAR文件[hologres-flink-connector-1.10-jar-with-dependencies.jar](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/30336/cn_zh/1600398557180/hologres-flink-connector-1.10-jar-with-dependencies.jar)，示例语句如下。
 
         ```
-        mvn install:install-file -Dfile=hologres-flink-connector-1.10-jar-with-dependencies.jar -DgroupId=org.apache.flink -DartifactId=hologress-flink-connector -Dversion=1.10 -Dpackaging=jar -DgeneratePom=true
+        mvn install:install-file -Dfile=hologres-flink-connector-1.10-jar-with-dependencies.jar -DgroupId=org.apache.flink -DartifactId=hologres-flink-connector -Dversion=1.10 -Dpackaging=jar -DgeneratePom=true
         ```
 
     2.  进入Hologres的[官方示例库](https://github.com/hologres/hologres-flink-examples)，下载并编译JAR文件，示例语句如下。
@@ -46,7 +46,7 @@ keyword: [开源Flink, 实时导入数据]
     **说明：** 示例使用命令行方式提交Flink作业，您也可以选择使用Flink Web页面提交作业。
 
     ```
-    flink run -c io.hologres.flink.example.HologresSinkExample ../hologres-flink-example/target/hologress-flink-examples-1.0.0-jar-with-dependencies.jar --endpoint $ENDPOINT --username $USERNAME --password $PASSWORD --database $DATABASE --tablename order_details
+    flink run -c io.hologres.flink.example.HologresSinkExample ../hologres-flink-example/target/hologres-flink-examples-1.0.0-jar-with-dependencies.jar --endpoint $ENDPOINT --username $USERNAME --password $PASSWORD --database $DATABASE --tablename order_details
     ```
 
     参数说明如下表所示。
